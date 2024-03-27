@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(styles/header.css);
+
+:root {
+  --fonte-principal: "Montserrat", sans-serif;
+  --cinza-escuro: #464646;
+  --cinza-claro: #a3a3a3;
+  --cinza-bg: #f8f5fe;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cinza-bg);
+  color: var(--cinza-escuro);
+  font-weight: 400;
+}
