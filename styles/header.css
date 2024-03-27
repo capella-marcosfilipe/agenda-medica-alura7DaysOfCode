@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 1.37rem 1rem;
+}
+
+.header__boasvindas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-left: 1rem;
+}
+
+.header__pfp {
+  width: 4.2rem;
+  border-radius: 50%;
+}
+
+.header__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.header__description {
+  font-size: 0.88rem;
+  color: var(--cinza-claro);
+}
