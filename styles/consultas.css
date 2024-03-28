@@ -95,12 +95,13 @@
   justify-content: center;
 
   height: 3rem;
-  width: 8.75rem;
+  width: 48%;
 
   font-family: var(--fonte-principal);
   font-weight: 500;
   font-size: 0.75rem;
   text-decoration: none;
+  color: var(--cinza-escuro);
 
   border: solid 1px var(--cinza-claro);
   border-radius: 0.5rem;
