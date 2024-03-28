@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url(styles/header.css);
+@import url(styles/consultas.css);
 
 :root {
   --fonte-principal: "Montserrat", sans-serif;
   --cinza-escuro: #464646;
-  --cinza-claro: #a3a3a3;
+  --cinza-claro: #f6f6f6;
+  --cinza: #a3a3a3;
   --cinza-bg: #f8f5fe;
+  --card-bg: #fff;
+
+  --botao-laranja: #ffb050;
+  --botao-azul: #4894ff;
 }
 
 body {
   font-family: var(--fonte-principal);
   background-color: var(--cinza-bg);
   color: var(--cinza-escuro);
+  font-size: 1rem;
   font-weight: 400;
 }

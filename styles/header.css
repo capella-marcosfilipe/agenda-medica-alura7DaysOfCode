@@ -23,5 +23,5 @@ header {
 
 .header__description {
   font-size: 0.88rem;
-  color: var(--cinza-claro);
+  color: var(--cinza);
 }

@@ -1,0 +1,145 @@
+.consultas {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
+.consultas__title {
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.consultas__card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+}
+
+.consultas hr {
+  border: 0.5px solid var(--cinza-claro); /* Updated border-width */
+  margin: 0.8rem 0;
+}
+
+.consultas__header {
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consultas__header__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.consultas__header__name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.consultas__header__type {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.consultas__header__type img {
+  width: 1rem;
+}
+
+.consultas__header__type p {
+  color: var(--cinza);
+  font-size: 0.75rem;
+}
+
+.consultas__header__pfp {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.consultas__header__chat {
+  background-color: var(--cinza-claro);
+  padding: 0.6rem;
+  border-radius: 50%;
+  border-color: transparent;
+}
+
+.consultas__header__chat:active {
+  background-color: var(--cinza);
+  cursor: pointer;
+}
+
+.consultas__body {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.consultas__body__time {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.consultas__body__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.consultas__body__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 3rem;
+  width: 8.75rem;
+
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-decoration: none;
+
+  border: solid 1px var(--cinza-claro);
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.consultas__body__link:visited {
+  color: var(--cinza-escuro);
+}
+
+.consultas__body__video {
+  border-color: transparent;
+  background-color: var(--botao-laranja);
+  color: white;
+}
+
+.consultas__body__video:visited {
+  color: white;
+}
+
+.consultas__body__link-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 3rem;
+  width: 100%;
+
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: white;
+
+  border: solid 1px var(--cinza-claro);
+  border-radius: 0.5rem;
+  background-color: var(--botao-azul);
+}
+
+.consultas__body__link-address:visited {
+  color: white;
+}
