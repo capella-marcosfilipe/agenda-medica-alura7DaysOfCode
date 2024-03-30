@@ -1,0 +1,45 @@
+.footer__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow-x: hidden;
+
+  background-color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0.5rem 0;
+}
+
+.footer__menu__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer__menu__link:visited {
+  color: var(--cinza-escuro);
+}
+
+.footer__menu__link__current {
+  color: var(--azul);
+}
+
+.footer__menu__link__current:visited {
+  color: var(--azul);
+}
+
+.footer__menu__link img {
+  max-width: 100%;
+}
+
+.footer__menu__link p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}

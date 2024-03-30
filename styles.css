@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url(styles/header.css);
 @import url(styles/consultas.css);
+@import url(styles/footer.css);
 
 :root {
   --fonte-principal: "Montserrat", sans-serif;
@@ -12,6 +13,8 @@
 
   --botao-laranja: #ffb050;
   --botao-azul: #4894ff;
+
+  --azul: #4894ff;
 }
 
 body {
