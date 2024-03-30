@@ -45,3 +45,15 @@
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
+.footer__button {
+  background-color: var(--azul);
+  box-shadow: 0 -1px 10px 1px var(--azul);
+  border-radius: 50%;
+  padding: 1.25rem;
+  margin: 1rem;
+
+  position: fixed;
+  right: 0rem;
+  bottom: 3rem;
+}
